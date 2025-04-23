@@ -1,0 +1,109 @@
+/* cabeçalho */
+
+header{
+    background-color: #fff196;
+    z-index: 1000;
+    top: 0;
+    left: 0;
+    width: 100%;
+    position: fixed;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+}
+
+.L1{
+    display: flex;
+    gap: 0;
+}
+
+.L1 p{
+    margin-top: 42px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+}
+
+/* fim do cabeçalho */
+
+/* body */
+
+.body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.L2{
+    margin: 0 100px 0px 100px;
+}
+
+.L2 h1{
+    font-size: 50px;
+    margin-bottom: 3px;
+    margin-top: 1px;
+}
+
+.L2 p{
+    font-size: 12px;
+    margin-top: 3px;
+}
+
+.L3{
+    margin: 0 100px 0px 100px;
+    text-indent: 30px;
+    font-size: 20px;
+}
+
+.L4{
+    margin: 0 100px 0 100px;
+    text-align: center;
+}
+
+.L4 img{
+    border-radius: 8px;
+}
+
+.L5{
+    margin: 0 100px 0px 100px;
+    
+}
+
+.L5 h1{
+    font-size: 45px;
+}
+
+.L5 p{
+    font-size: 20px;
+    transition: 0.5s;
+}
+
+.L5 p:hover{
+    transform: scale(1.2);
+    transform-origin: left;
+}
+
+.L6{
+    background-color: #fae100;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    margin: 10px;
+    border-radius: 50px;
+    font-size: xx-large;
+}
+
+.L6 a{
+    text-decoration: none;
+}
+
+/* body */
+
+/* rodapé */
+
+footer{
+    background-color: #fff196;
+    width: 100%;
+    box-shadow: 0px 2px 0px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    text-align: center;
+    padding: 2%;
+}
+

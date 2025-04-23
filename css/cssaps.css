@@ -1,0 +1,154 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    background-color: #fff196;
+}
+
+.banner{
+    background-image: url(/imagens/banneraps.jpg);
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 1px;
+}
+
+.banner h1{
+    text-transform: uppercase;
+}
+
+.fixo{
+    height: 70px;
+    background-color: #e1cc41;
+    padding-top: 10px;
+    display: flex;
+    gap: 1300px;
+    position: fixed;
+    width: 100%;
+
+}
+
+.fixo img{
+    margin: 5px 0;
+}
+
+.banner li{
+    display: inline-block;
+    background-color: rgba(186, 159, 51, 0.3);
+    padding: 5px;
+    letter-spacing: 1px;
+    border: 2px solid white;
+    margin: 0 10px;
+}
+
+.banner li a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+.banner li:hover{
+    background-color: rgb(224, 211, 25);
+}
+
+.banner ul{
+    text-align: right;
+    margin: 20px 80px 0 0;
+}
+
+
+.banner-content{
+    width: 90%;
+    margin: 110px auto 0;
+    text-align: center;
+
+}
+
+.banner-content h1{
+    font-size: 50px;
+    text-shadow: 2px 2px 2px black;
+    color: #fff196;
+    margin-bottom: 7px;
+    
+}
+
+.banner-content p{
+    background-color: rgba(243, 198, 51, 0.3);
+    width: fit-content;
+    margin: auto;
+    border-bottom: 1px solid #fff196;
+    padding: 5px;
+    margin-top: 0;
+}
+
+/* fim cabeçalho */
+
+
+main{
+    width: 70%;
+    margin: auto;
+}
+
+article{
+    padding: 10px;
+    background-color: white;
+    margin: 32px 0;
+    border-radius: 6px;
+
+}
+
+.saibamais{
+    background-color: #e1cc41;
+    display: block;
+    padding: 10px;
+    width: fit-content;
+    margin-left: auto;
+    color: rgb(255, 255, 255);
+    transition: 0.5s;
+    border-radius: 6px;
+}
+
+.saibamais:hover{
+    background-color: black;
+    transform: scale(1.2);
+}
+
+.cabeçalho-article{
+    border-bottom: 1px solid #ccc;
+}
+
+.cabeçalho-article h1{
+    font-size: 25px;
+    text-decoration: underline;
+    list-style-position: inside;
+}
+
+
+.section1 p{
+    text-align: justify;
+    text-indent: 35px;
+}
+
+.segredo{
+    text-decoration: none;
+    color: black;
+}
+
+/* fim do body */
+
+footer{
+    background-color: #e1cc41;
+    height: 100%;
+    text-align: center;
+}
+
+footer p{
+    padding-top: 20px;
+}
+
+footer a{
+    display: inline-block;
+    margin: 2px 0;
+}
+
+
+
