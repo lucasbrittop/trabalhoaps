@@ -5,7 +5,6 @@ body{
 }
 
 .banner{
-    background-image: url(/imagens/banneraps.jpg);
     height: 500px;
     background-size: cover;
     background-position: center;
