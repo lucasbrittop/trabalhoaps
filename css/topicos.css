@@ -5,11 +5,7 @@ body{
 }
 
 .banner{
-    height: 500px;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    padding: 1px;
+    height: 250px;
 }
 
 .banner h1{
@@ -79,12 +75,14 @@ body{
     margin-top: 0;
 }
 
-/* fim cabeçalho */
+/* fim do cabeçalho */
 
-
-main{
-    width: 70%;
-    margin: auto;
+.headerse{
+    border: none;
+    text-align: center;
+    font-size: 40px;
+    margin: 0 auto 100px;
+    text-decoration: underline;
 }
 
 article{
@@ -92,62 +90,20 @@ article{
     background-color: white;
     margin: 32px 0;
     border-radius: 6px;
-
 }
 
-.saibamais{
-    background-color: #e1cc41;
-    display: block;
-    padding: 10px;
-    width: fit-content;
-    margin-left: auto;
-    color: rgb(255, 255, 255);
-    transition: 0.5s;
-    border-radius: 6px;
+section{
+    width: 80%;
+    margin: auto;
 }
-
-.saibamais:hover{
-    background-color: black;
-    transform: scale(1.2);
-}
-
-.cabeçalho-article{
-    border-bottom: 1px solid #ccc;
-}
-
-.cabeçalho-article h1{
-    font-size: 25px;
-    text-decoration: underline;
-    list-style-position: inside;
-}
-
 
 section p{
-    text-align: justify;
     text-indent: 35px;
+    text-align: justify;
 }
 
-.segredo{
-    text-decoration: none;
-    color: black;
+section header{
+    font-size: 25px;
+    border-bottom: 2px solid #ccc;
+    padding: 20px;
 }
-
-/* fim do body */
-
-footer{
-    background-color: #e1cc41;
-    height: 100%;
-    text-align: center;
-}
-
-footer p{
-    padding-top: 20px;
-}
-
-footer a{
-    display: inline-block;
-    margin: 2px 0;
-}
-
-
-
