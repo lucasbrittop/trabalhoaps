@@ -24,6 +24,10 @@ body{
     gap: 1300px;
     position: fixed;
     width: 100%;
+    margin: -1px -1px 0 -1px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom: 2px solid white;
 
 }
 
