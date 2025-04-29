@@ -12,6 +12,7 @@ body{
     padding: 1px;
 }
 
+
 .banner h1{
     text-transform: uppercase;
 }
@@ -21,7 +22,7 @@ body{
     background-color: #e1cc41;
     padding-top: 10px;
     display: flex;
-    gap: 1300px;
+    gap: 68%;
     position: fixed;
     width: 100%;
     margin: -1px -1px 0 -1px;
@@ -36,20 +37,23 @@ body{
 
 .banner li{
     display: inline-block;
-    background-color: rgba(186, 159, 51, 0.3);
+    background-color: #e1cc41;
     padding: 5px;
     letter-spacing: 1px;
-    border: 2px solid white;
+    border-bottom: 2px solid rgba(145, 137, 2, 0.79);
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.4);
     margin: 0 10px;
+    border-radius: 5px;
 }
 
 .banner li a{
     color: rgb(0, 0, 0);
     text-decoration: none;
+    padding: auto;
 }
 
 .banner li:hover{
-    background-color: rgb(224, 211, 25);
+    background-color: rgb(171, 161, 33);
 }
 
 .banner ul{
@@ -104,7 +108,7 @@ article{
     padding: 10px;
     width: fit-content;
     margin-left: auto;
-    color: black;
+    color: white;
     transition: 0.5s;
     border-radius: 6px;
 }
@@ -156,11 +160,11 @@ footer p{
     color: black;
     margin: 2px 0;
     font-size: large;
-    background-color: rgba(0,0,0,0.2);
     padding: 2px;
-    border: 2px solid rgba(255,255,255,0.5);
-    border-radius: 30px;
-    margin-bottom: 0;
+    border-bottom: 2px solid white;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    text-decoration: none;
 }
 
 
