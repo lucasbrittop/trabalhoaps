@@ -138,10 +138,7 @@ section p{
 /* fim do body */
 
 footer{
-    background-image: url(/imagens/banneraps.jpg);
-    background-position: bottom;
-    background-size: cover;
-    background-repeat: no-repeat;
+    background-color: #e1cc41;
     text-align: center;
     border-top: 2px solid white;
 }
@@ -149,6 +146,9 @@ footer{
 footer p{
     padding-top: 20px;
     font-size: larger;
+    height: px;
+    margin-bottom: 0;
+    margin-top: 0;
 }
 
 .linkig{
@@ -160,6 +160,7 @@ footer p{
     padding: 2px;
     border: 2px solid rgba(255,255,255,0.5);
     border-radius: 30px;
+    margin-bottom: 0;
 }
 
 
